@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{Component} from "react";
+import logo from "./logo.svg";
+import "./App.css";
+// import "./main.js";
+import Header from "./components/header/header.component";
+import AboutMe from "./component.pages/about-me/about-me";
+import Container from "./components/container/container.componenet";
+import Navbar from "./components/Navbar/navbar";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      skills: [],
+      experience: [],
+      projects: [],
+      personalData: ""
+    };
+  }
+
+  render() {
+    const { skills, experience, projects, personalData } = this.state;
+    return (
+      <div className="App">
+      <Navbar/>
+
+        <Header/>
+        {/* <AboutMe/> */}
+        <Container/>
+        {/* <h1>My Portfolio</h1> */}
+      </div>
+    );
+  }
 }
-
 export default App;
