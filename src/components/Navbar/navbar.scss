@@ -1,31 +1,31 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+// ul {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden;
+//     background-color: #333;
+//   }
   
-  li {
-    float: left;
-  }
+//   li {
+//     float: left;
+//   }
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 111px;
-    text-decoration: none;
-  }
+//   li a {
+//     display: block;
+//     color: white;
+//     text-align: center;
+//     padding: 14px 111px;
+//     text-decoration: none;
+//   }
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+//   /* Change the link color to #111 (black) on hover */
+//   li a:hover {
+//     background-color: #111;
+//   }
 
-  // .active{
-  //   background-color: #111;
-  // }
+//   // .active{
+//   //   background-color: #111;
+//   // }
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
     position: fixed;
@@ -34,26 +34,32 @@ ul {
     overflow: hidden;
   }
 
-  @media screen and (max-width: 900px) {
-    ul {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
+//   @media screen and (max-width: 900px) {
+//     ul {
+//       width: 100%;
+//       height: auto;
+//       position: relative;
+//     }
     
-    ul li a {
-      float: left;
-      padding: 15px;
-    }
+//     ul li a {
+//       float: left;
+//       padding: 15px;
+//     }
     
-    div.content {margin-left: 0;}
-  }
+//     div.content {margin-left: 0;}
+//   }
   
-  @media screen and (max-width: 400px) {
-    ul li a {
-      text-align: center;
-      float: none;
-    }
-  }
+//   @media screen and (max-width: 400px) {
+//     ul li a {
+//       text-align: center;
+//       float: none;
+//     }
+//   }
 
-  
+.full-width{
+  width: 100% !important;
+}  
+.nav-links{
+  padding-left: 5.5rem !important;
+  padding-right: 5.5rem !important;
+}

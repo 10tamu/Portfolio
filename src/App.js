@@ -6,6 +6,7 @@ import Header from "./components/header/header.component";
 import AboutMe from "./component.pages/about-me/about-me";
 import Container from "./components/container/container.componenet";
 import Navbar from "./components/Navbar/navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   constructor() {
@@ -25,7 +26,7 @@ class App extends Component {
       <div className="App">
       <Navbar/>
 
-        <Header/>
+        {/* <Header/> */}
         {/* <AboutMe/> */}
         <Container/>
         {/* <h1>My Portfolio</h1> */}
