@@ -23,12 +23,6 @@ const aboutme = () => (
           <h2>Full Stack Developer</h2>
         </div>
       </Col>
-      {/* <Col xs={6} md={6} style={{backgroundColor:"#ededed",marginLeft:"-15px",height:"700px"}}>
-        <div style={{color:"white"}}>
-        <h1>I am Palak</h1>
-        <h2>I am a Full Stack Developer</h2>
-        </div>
-      </Col> */}
     </Row>
   </div>
 );

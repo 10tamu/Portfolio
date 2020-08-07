@@ -1,37 +1,31 @@
-import React,{Component} from "react";
-import logo from "./logo.svg";
-import "./App.css";
-// import "./main.js";
-import Header from "./components/header/header.component";
-import AboutMe from "./component.pages/about-me/about-me";
-import Container from "./components/container/container.componenet";
-import Navbar from "./components/Navbar/navbar";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import './App.css';
 
-class App extends Component {
-  constructor() {
-    super();
+import Header from './components/header';
+import About from './components/about';
+import Work from './components/work';
+import Contact from './components/contact';
+import Navbar from './components/navbar'
 
-    this.state = {
-      skills: [],
-      experience: [],
-      projects: [],
-      personalData: ""
-    };
-  }
-
-  render() {
-    const { skills, experience, projects, personalData } = this.state;
-    return (
-      <div className="App">
-      <Navbar/>
-
-        {/* <Header/> */}
-        {/* <AboutMe/> */}
-        <Container/>
-        {/* <h1>My Portfolio</h1> */}
+function App() {
+  return (
+    <div className="App">
+      <Navbar></Navbar>
+      <div className="App-header">
+      <Header></Header>
       </div>
-    );
-  }
+      
+      <div className='About'>
+        <About></About>
+      </div>
+      <div className='work'>
+        <Work></Work>
+      </div>
+      <div className='contact'>
+        <Contact></Contact>
+      </div>
+    </div>
+  );
 }
+
 export default App;
