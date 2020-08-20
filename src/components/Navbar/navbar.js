@@ -1,18 +1,63 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 // import "./navbar.scss";
-import {Navbar, Nav} from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavigationLink = () => (
-    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
-      <Navbar.Brand href="#home" className="nav-links">Home</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#services" className="nav-links">Services</Nav.Link>
-        <Nav.Link href="#portfolio" className="nav-links">Portfolio</Nav.Link>
-        <Nav.Link href="#skills" className="nav-links">Skills</Nav.Link>
-        <Nav.Link href="#aboutme" className="nav-links">About Me</Nav.Link>
-      </Nav>
-    </Navbar>
+  <div>
+    {" "}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        Palak
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              Home <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Skils
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Conact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Linkedin
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Github
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 );
 
 export default NavigationLink;
