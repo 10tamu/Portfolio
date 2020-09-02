@@ -17,6 +17,8 @@
 
 .App{
     height: 100%;
+    /* font-family: ‘Aref Ruqaa’; */
+
     /* display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2,100%); */
@@ -24,17 +26,18 @@
 
 .home{
     margin-top: 0 !important;
-    background-color: #2f4858 !important;
-    color: #fff;
+    /* background-color: #2f4858 !important; */
+    /* color: #fff; */
     margin-bottom: 0 !important;
-    height:680px;
+    height:630px;
 }
 
 .text-center{
-    size: 20px;
-    text-align: center;
+    size: 40px;
+    color: #5e6472 !important;
+    /* text-align: center; */
     margin: auto;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 h1{
@@ -55,8 +58,8 @@ h1{
 }
 
 .bg-purple{
-    margin-top: 0 !important;
-    background-color: #aed9e0;
+    /* margin-top: 0 !important; */
+    /* background-color: #aed9e0; */
     height:680px;
     color: #fff;
     margin-bottom: 0 !important;
@@ -67,4 +70,120 @@ h1{
     height:680px;
     margin-top: 0 !important;
     color: #fff;
+}
+
+/* .about-me{
+    display: grid;
+    background-color: #9ea5aa;
+    height:680px;
+    padding-top: 20px;
+}
+
+.about-me > h4{
+    text-align: center;
+    background-color: pink;
+} */
+
+.about-me-story{
+    margin-top: 40px !important;
+    margin:60px;
+}
+
+.about-me-container{
+    margin-top: 0 !important;
+    display: grid;
+    /* background-color: #9ea5aa; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px auto;
+    height:680px;
+}
+
+#aboutme-h4{
+    background-color: pink !important;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+} 
+
+.abm-header{
+    /* color: #fff; */
+    /* background-color: #9ea5aa; */
+    margin-bottom: 0 !important;
+}
+
+.img{
+    height: 400px;
+    width:330px;
+    opacity: 0.5;
+    /* display: block;
+    margin:5px  auto; */
+}
+
+.aboutme-r{
+    /* align-items: center !important; */
+    display: block;
+    
+    margin:5px  auto;
+}
+  .h4-center{
+      text-align: center;
+  }
+
+  .aboutme-text{
+      font-size: 18px;
+      text-align:justify;
+      /* line-height: normal; */
+
+  } 
+
+  .aboutme-text > p{
+    margin-top: 20px !important;
+    margin-left: 60px !important;
+  }
+
+  .aboutme-ul > li{
+    width: 50%;
+    float: left;
+    list-style: circle;   
+  }
+
+
+  .flax-container{
+    display: grid;
+    color: #fff;
+    margin-bottom: 15px;
+    grid-template-columns: 20% 1fr auto;
+  }
+
+  .flax-container > div{
+      margin:1px;
+      padding: 12px;
+      font-size: 20px;
+  }
+
+
+  .flax-container > div.language{
+    background-color:#555d69;
+      margin-right: 0;
+      /* width: 19%; */
+  }
+
+  .flax-container > div.dark-clr{
+    background-color: #393e45;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.flax-container > div.percentage{
+    left:0;
+    margin-left: 0;
+    background-color:#e5ebf4;
+    color:#393e45;
+
+}
+
+
+.work-section > div{
+    margin:20px !important;
 }
