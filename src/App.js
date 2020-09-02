@@ -78,34 +78,29 @@ function App() {
         </div>
         <div class="row">
           <div class="col-sm">
-            <div class="row">
+          <div class="row">
               <div class="col-sm">
                 <div class="card" style={{ width: "400px" }}>
-                  <img class="card-img-top" src={logo} alt="Card image" />
+                <h5 class="card-header">ReadyTeacher</h5>
                   <div class="card-body">
-                    <h4 class="card-title">ReadyTeacher</h4>
-                    <p class="card-text">Software Engineer</p>
-                    {/* <a href="#" class="btn btn-primary">
-                      See Profile
-                    </a> */}
+                    <h4 class="card-title">Software Engineer</h4>
+                    <p class="card-text"></p>
                   </div>
+                  <div class="card-footer text-muted">2019-2020</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-sm">
-            <div class="row">
+          <div class="row">
               <div class="col-sm">
                 <div class="card" style={{ width: "400px" }}>
-                  <img class="card-img-top" src={logo} alt="Card image" />
+                <h5 class="card-header">Tatvasoft</h5>
                   <div class="card-body">
-                    <h4 class="card-title">Tatvasoft</h4>
-                    <p class="card-text">Software Engineer</p>
+                    <h4 class="card-title">Software Engineer</h4>
                     <p class="card-text"></p>
-                    {/* <a href="#" class="btn btn-primary">
-                      See Profile
-                    </a> */}
                   </div>
+                  <div class="card-footer text-muted">2016-2017</div>
                 </div>
               </div>
             </div>
