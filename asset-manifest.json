@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2a3348f4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.6ea738cc.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6ea738cc.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
+    "static/css/2.11829350.chunk.css": "/Portfolio/static/css/2.11829350.chunk.css",
+    "static/js/2.f124ef7d.chunk.js": "/Portfolio/static/js/2.f124ef7d.chunk.js",
+    "static/js/2.f124ef7d.chunk.js.map": "/Portfolio/static/js/2.f124ef7d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.087c24e8ec38bf74aae5774dcbdf944d.js": "/Portfolio/precache-manifest.087c24e8ec38bf74aae5774dcbdf944d.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/Portfolio/static/css/2.11829350.chunk.css.map",
+    "static/css/main.2a3348f4.chunk.css.map": "/Portfolio/static/css/main.2a3348f4.chunk.css.map",
+    "static/js/2.f124ef7d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f124ef7d.chunk.js.LICENSE.txt",
+    "static/media/Palak Tank edited.png": "/Portfolio/static/media/Palak Tank edited.4f748525.png",
+    "static/media/WFH.jpg": "/Portfolio/static/media/WFH.3a607952.jpg",
+    "static/media/face.png": "/Portfolio/static/media/face.11828d76.png",
+    "static/media/sample img.jpg": "/Portfolio/static/media/sample img.38e8bedb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e440ee5a.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.f124ef7d.chunk.js",
+    "static/css/main.2a3348f4.chunk.css",
+    "static/js/main.6ea738cc.chunk.js"
+  ]
+}
